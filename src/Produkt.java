@@ -10,4 +10,8 @@ public class Produkt {
     public String getName() {
         return name;
     }
+
+    public int getID() {
+        return id;
+    }
 }

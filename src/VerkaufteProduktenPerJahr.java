@@ -46,4 +46,8 @@ public class VerkaufteProduktenPerJahr {
     public String produktName() {
         return produkt.getName();
     }
+
+    public int produktiD() {
+        return produkt.getID();
+    }
 }

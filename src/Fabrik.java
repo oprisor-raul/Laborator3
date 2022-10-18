@@ -28,7 +28,7 @@ public class Fabrik {
                 }
 
         for (VerkaufteProduktenPerJahr verkaufteProduktenPerJahr : arrayVerkaufteProduktenPerJahr) {
-            System.out.println(verkaufteProduktenPerJahr.produktName());
+            System.out.println(verkaufteProduktenPerJahr.produktName() + " with ID: " + verkaufteProduktenPerJahr.produktiD());
         }
     }
 
